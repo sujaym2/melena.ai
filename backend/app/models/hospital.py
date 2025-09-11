@@ -40,6 +40,10 @@ class Hospital(Base):
     # Relationships
     procedures = relationship("HospitalProcedure", back_populates="hospital")
     insurance_contracts = relationship("HospitalInsuranceContract", back_populates="hospital")
+    transparency_scores = relationship("HospitalTransparencyScore", back_populates="hospital")
+    excellence_recognition = relationship("HospitalExcellenceRecognition", back_populates="hospital")
+    peer_groups = relationship("HospitalPeerGroup", back_populates="hospital")
+    accountability_tiers = relationship("HospitalAccountabilityTier", back_populates="hospital")
     
     # Metadata
     created_at = Column(DateTime(timezone=True), server_default=func.now())
