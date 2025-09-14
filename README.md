@@ -174,9 +174,3 @@ melena.ai/
 6. **Regulatory Review** - Legal compliance verification
 7. **Hospital Excellence Program** - Launch recognition and accountability systems
 
-## Contact
-
-For partnerships, data access, or technical questions:
-- Email: [contact@melena.ai]
-- Website: [melena.ai]
-- GitHub: [github.com/melena-ai]
